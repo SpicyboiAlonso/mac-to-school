@@ -1,0 +1,106 @@
+/* p{
+    color: purple;
+}
+
+span{
+    border: 1px dotted black;
+    background-color: yellowgreen;
+}
+
+p{
+    color: red;
+}
+header{
+    border: solid 10px black;
+    font-size: 3em;
+}
+header div{
+    margin: 10px 20px 35px 45px;
+    padding: 10px;
+    width: calc(60% - 20px -20px);
+    background-color: salmon;
+    text-decoration: underline dotted black ;
+}
+img{
+    
+    transform: scale(1);
+    /* transform: skew(20deg, 40deg); */
+    /*transform: translate(20px,40px);
+    transform: matrix(1, 2 ,3);
+}
+@media(max-width: 300px){
+    img{
+        transform: rotate(180deg);
+    }
+} 
+*/
+body{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: slateblue;
+    border-bottom: 2px solid;
+}
+div{
+    font-size: larger;
+    font-weight: bold;
+    color: slategray;
+}
+a{
+    color: blue;
+}
+a[href]{
+    color: purple;
+}
+a[href="west-mec.edu"]{
+    color: saddlebrown;
+}
+ul{
+    border: solid hotpink 2px;
+}
+div.job-title{cursor: -moz-zoom-in;
+
+}
+p{
+    width: 50%;
+    float: left;
+}
+#Proper-Name{
+    text-decoration: underline dotted black;
+    color: aquamarine;
+}
+
+p::first-letter{
+    font-size: larger;
+    font-family: fantasy;
+}
+header > p{
+    color: yellowgreen;
+}
+a[href="https://www.google.com/"]{
+    color: red;
+}
+a [href="https://www.wikipedia.org/"]{
+    color: grey;
+}
+a[href="https://www.w3schools.com/default.asp"]{
+    color: limegreen;
+}
+a[href="https://developer.mozilla.org/en-US/"]{
+    color: lightblue;
+}
+a[href="https://github.com/"]{
+    color: green;
+}
+li ::first-letter{
+    font-size: larger;
+    font-family: fantasy;
+}
+a:hover{
+    text-decoration: none;
+}
+a::after{
+    content: ".com";
+}
